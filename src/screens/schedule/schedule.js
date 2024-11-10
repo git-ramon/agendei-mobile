@@ -67,8 +67,15 @@ function Schedule(props){
                             setSelectedHour(itemValue)
                         }}>
                         <Picker.Item label="09:00" value="09:00"/>
-                        <Picker.Item label="09:30" value="09:30"/>
                         <Picker.Item label="10:00" value="10:00"/>
+                        <Picker.Item label="11:00" value="11:00"/>
+                        <Picker.Item label="12:00" value="12:00"/>
+                        <Picker.Item label="13:00" value="13:00"/>
+                        <Picker.Item label="14:00" value="14:00"/>
+                        <Picker.Item label="15:00" value="15:00"/>
+                        <Picker.Item label="16:00" value="16:00"/>
+                        <Picker.Item label="17:00" value="17:00"/>
+                        <Picker.Item label="18:00" value="18:00"/>
                     </Picker>
                 </View>
             </View>
